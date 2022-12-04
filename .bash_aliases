@@ -8,8 +8,9 @@ alias neo='neofetch'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
 alias install='sudo apt install'
-alias autorm='sudo apt autoremove'
+alias autoremove='sudo apt autoremove'
 alias purge='sudo apt purge'
+alias remove='sudo apt remove'
 
 # Git
 alias gsh='git push'
@@ -18,3 +19,8 @@ alias gia='git add'
 alias gis='git status'
 alias gic='git commit'
 alias gicl='git clone'
+
+# Ngrok
+alias startngrok='sudo systemctl start ngrok'
+alias statusngrok='sudo systemctl status ngrok'
+alias stopngrok='sudo systemctl stop ngrok'
