@@ -13,6 +13,7 @@ alias purge='sudo apt purge'
 alias remove='sudo apt remove'
 
 # Git
+alias gch='git checkout'
 alias gsh='git push'
 alias gll='git pull'
 alias gia='git add'
