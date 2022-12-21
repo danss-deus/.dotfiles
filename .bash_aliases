@@ -19,6 +19,8 @@ alias gia='git add'
 alias gis='git status'
 alias gic='git commit'
 alias gicl='git clone'
+alias gib='git branch'
+alias gsw='git switch'
 
 # Ngrok
 alias startngrok='sudo systemctl start ngrok'
